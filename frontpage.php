@@ -3,18 +3,20 @@
 ?>
 <!-- SEARCH SECTION -->
 <div class="container">
-	<div class="jumbotron" id="forsearch">
+	<div class="jumbotron search" id="forsearch">
 			<h1 class="text-center SEARCH_H1"> Search Your Product</h1>
-		<form>
+		<form method="get" action="display.php">
 			<div class="form-group">
 				<input type="Search" placeholder="Search..." name="Searchbar" class="form-control">
 			</div>
 		</form>
 	</div>
 </div>
+<P></P>
 <!-- LOOK SECTION -->
-<div class="jumbotron">
-	<div class="container">
+<!-- <div class="container">
+	<div class="jumbotron looksection">
+	<div>
 		<h1 class="exploretext">Explore</h1>
 		<div class="row">
 			<div class="col-lg-3 col-md-6 col-sm-6 colfortiles">
@@ -53,6 +55,7 @@
 	</div>
 </div>
 </div>
+</div> -->
 <!-- BOOTSTRAP & MYOWN JAVASCRIPT LIBRARY -->
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
